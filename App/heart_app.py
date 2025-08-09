@@ -119,7 +119,7 @@ exercise_status = row6_3.selectbox("Have you exercised in the past 30 days?", ["
 
 with row6_1:
     st.write("#### Learn More")
-    st.markdown("[![](https://img.shields.io/badge/GitHub%20-Features%20Information-informational)](https://github.com/meahulk/AI_powered_heart_disease_risk_assessment_app/tree/main/Notebooks/Exploratory_Data_Analysis/)")
+    st.markdown("[![](https://img.shields.io/badge/GitHub-Follow-informational)](https://github.com/merahulk)")
 
 # Collect input data
 input_data = {
@@ -372,7 +372,7 @@ st.write('---')
 row8_0A, row8_1B, row8_5C = st.columns((0.08, 12, 0.17))
 with row8_1B:
     st.write("#### Learn More")
-    st.markdown("[![](https://img.shields.io/badge/GitHub%20-Machine%20Learning%20Models-informational)](https://github.com/merahulk/AI_powered_heart_disease_risk_assessment_app/tree/main/Notebooks/Modeling/)")
+    st.markdown("[![](https://img.shields.io/badge/GitHub%20-Machine%20Learning%20Models-informational)](https://github.com/merahulk/AI_powered_heart_disease_risk_assessment_app/blob/main/Modeling.ipynb/)")
     st.write("""
         ###### ***Disclaimer***
         *This app is not a replacement for professional medical advice, diagnosis, or treatment. Always consult your doctor or a qualified healthcare provider with any questions you may have regarding your health.*
@@ -405,6 +405,7 @@ with row10_1:
         [![MAIL Badge](https://img.shields.io/badge/-rahul260120kumar@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rahul260120kumar@gmail.com)](mailto:rahul260120kumar@gmail.com)
         ###### © Rahul Kumar, 2025. All rights reserved.
     """)
+
 
 
 
