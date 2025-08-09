@@ -11,7 +11,7 @@ import shap
 import plotly.express as px
 
 # Load the pickled model and encoder
-with open('best_model.pkl', 'rb') as model_file:
+with open('App/best_model.pkl', 'rb') as model_file:
     model = pkl.load(model_file)
 
 with open('cbe_encoder.pkl', 'rb') as encoder_file:
@@ -405,4 +405,5 @@ with row10_1:
         [![MAIL Badge](https://img.shields.io/badge/-rahul260120kumar@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rahul260120kumar@gmail.com)](mailto:rahul260120kumar@gmail.com)
         ###### © Rahul Kumar, 2025. All rights reserved.
     """)
+
 
