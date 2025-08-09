@@ -21,7 +21,7 @@ with open('App/cbe_encoder.pkl', 'rb') as encoder_file:
 data = pd.read_csv('App/brfss2022_data_wrangling_output.zip', compression='zip')
 data['heart_disease'] = data['heart_disease'].apply(lambda x: 1 if x == 'yes' else 0).astype('int')
 
-icon = Image.open("heart_disease.jpg")
+icon = Image.open("App/heart_disease.jpg")
 st.set_page_config(layout='wide', page_title='AI-Powered Heart Disease Assessment', page_icon=icon)
 
 # Custom CSS
@@ -29,7 +29,7 @@ def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-local_css("style_v1.css")
+local_css("App/style_v1.css")
 
 # Main layout with three columns
 row0_0, row0_1, row0_2, row0_3 = st.columns((0.08, 6, 3, 0.17))
@@ -405,6 +405,7 @@ with row10_1:
         [![MAIL Badge](https://img.shields.io/badge/-rahul260120kumar@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rahul260120kumar@gmail.com)](mailto:rahul260120kumar@gmail.com)
         ###### © Rahul Kumar, 2025. All rights reserved.
     """)
+
 
 
 
