@@ -393,7 +393,7 @@ with row9_1.expander("Leave Us a Comment or Question"):
     st.markdown(contact_form, unsafe_allow_html=True)
 
     # Use Local CSS File
-    local_css("style.css")
+    local_css("App/style.css")
 
 null10_0, row10_1, row10_2 = st.columns((0.04, 7, 0.4))
 with row10_1:
@@ -405,6 +405,7 @@ with row10_1:
         [![MAIL Badge](https://img.shields.io/badge/-rahul260120kumar@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rahul260120kumar@gmail.com)](mailto:rahul260120kumar@gmail.com)
         ###### © Rahul Kumar, 2025. All rights reserved.
     """)
+
 
 
 
