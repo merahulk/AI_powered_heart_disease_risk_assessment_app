@@ -119,7 +119,7 @@ exercise_status = row6_3.selectbox("Have you exercised in the past 30 days?", ["
 
 with row6_1:
     st.write("#### Learn More")
-    st.markdown("[![](https://img.shields.io/badge/GitHub%20-Features%20Information-informational)](https://github.com/akthammomani/AI_powered_heart_disease_risk_assessment_app/tree/main/Notebooks/Exploratory_Data_Analysis/)")
+    st.markdown("[![](https://img.shields.io/badge/GitHub%20-Features%20Information-informational)](https://github.com/meahulk/AI_powered_heart_disease_risk_assessment_app/tree/main/Notebooks/Exploratory_Data_Analysis/)")
 
 # Collect input data
 input_data = {
@@ -382,7 +382,7 @@ st.write('---')
 null9_0, row9_1, row9_2 = st.columns((0.02, 5, 0.05))
 with row9_1.expander("Leave Us a Comment or Question"):
     contact_form = """
-        <form action=https://formsubmit.co/aktham.momani81@gmail.com method="POST">
+        <form action=https://formsubmit.co/rahul260120kumar@gmail.com method="POST">
             <input type="hidden" name="_captcha" value="false">
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" placeholder="Your email" required>
@@ -399,9 +399,10 @@ null10_0, row10_1, row10_2 = st.columns((0.04, 7, 0.4))
 with row10_1:
     st.write("""
         ### Contacts
-        [![](https://img.shields.io/badge/GitHub-Follow-informational)](https://github.com/akthammomani)
-        [![](https://img.shields.io/badge/Linkedin-Connect-informational)](https://www.linkedin.com/in/akthammomani/)
+        [![](https://img.shields.io/badge/GitHub-Follow-informational)](https://github.com/merahulk)
+        [![](https://img.shields.io/badge/Linkedin-Connect-informational)](https://www.linkedin.com/in/rahul-kumar-955a342b5)
         [![](https://img.shields.io/badge/Open-Issue-informational)](https://github.com/akthammomani/AI_powered_heart_disease_risk_assessment_app/issues)
-        [![MAIL Badge](https://img.shields.io/badge/-aktham.momani81@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:aktham.momani81@gmail.com)](mailto:aktham.momani81@gmail.com)
-        ###### © Aktham Momani, 2024. All rights reserved.
+        [![MAIL Badge](https://img.shields.io/badge/-rahul260120kumar@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rahul260120kumar@gmail.com)](mailto:rahul260120kumar@gmail.com)
+        ###### © Rahul Kumar, 2025. All rights reserved.
     """)
+
