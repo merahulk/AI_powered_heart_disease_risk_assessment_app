@@ -11,14 +11,14 @@ import shap
 import plotly.express as px
 
 # Load the pickled model and encoder
-with open('best_model.pkl', 'rb') as model_file:
+with open('App/best_model.pkl', 'rb') as model_file:
     model = pkl.load(model_file)
 
-with open('cbe_encoder.pkl', 'rb') as encoder_file:
+with open('App/cbe_encoder.pkl', 'rb') as encoder_file:
     encoder = pkl.load(encoder_file)
 
 # Load the dataset for reference
-data = pd.read_csv('brfss2022_data_wrangling_output.zip', compression='zip')
+data = pd.read_csv('App/brfss2022_data_wrangling_output.zip', compression='zip')
 data['heart_disease'] = data['heart_disease'].apply(lambda x: 1 if x == 'yes' else 0).astype('int')
 
 icon = Image.open("heart_disease.jpg")
@@ -405,6 +405,7 @@ with row10_1:
         [![MAIL Badge](https://img.shields.io/badge/-rahul260120kumar@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rahul260120kumar@gmail.com)](mailto:rahul260120kumar@gmail.com)
         ###### © Rahul Kumar, 2025. All rights reserved.
     """)
+
 
 
 
